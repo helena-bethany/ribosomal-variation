@@ -58,7 +58,8 @@ rm -rf AY596297.1.embl    # Doesn't format correctly with bacteria.taxonomy.txt 
 echo -ne "EMBL_ACC\tSPECIES\tNCBI_CLASSIFICATION" > $d-bacteria.taxonomy.txt
 grep ^O *embl | tr ":" "\t" | perl -lane 'if (($F[0] ne $e) or (/U00096.*Escherichia\./)){print "$e\t$s\t$c"; ($e,$s,$c)=("","","");} if(/(\S+)\tOS\s+(.*)/){ $e=$1; $s=$2; }elsif(/(\S+)\tOC\s+(.*)/){$c.=$2;}' >> $d-bacteria.taxonomy.txt
 
-### Add Haloarcula marismortui taxonomy data.
+### Add Haloarcula marismortui metadata.
+echo -e "AY596297.1\t1\t1\t1\tHaloarcula marismortui AT 43049 chromosome I" >> $d-bacteria.taxonomy.txt
 echo -e "AY596297.1.embl\tHaloarcula marismortui AT 43049\tArchaea; Euryarchaeota; Stenosarchaea group; Halobacteria; Halobacteriales; Haloarculaceae; Haloarcula" >> $d-bacteria.taxonomy.txt
 
 #####################################################################
