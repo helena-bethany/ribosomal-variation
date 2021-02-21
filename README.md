@@ -76,7 +76,7 @@ Prior to annotaing ribosomal protein genes, the genome files were underwent a si
 transeq -sequence CP009789.1.fasta -outseq CP009789.1.pep -frame=6 
 
 # Example of hmmsearch usage
-hmmsearch -E 1E-6 -A 201112-16S-aln.stk ../RF00177-16S.cm seqdb-16S 
+hmmsearch -E 1E-6 --domE 1E-6 --tblout 201112-uS12-CP009789.1-results.tbl -o 201112-uS12-CP009789.1-output.tbl ../PF00164-uS12.hmm 201112-uS12-CP009789.1-translated.pep
 ```
 
 ---------------------------------------------------------------------------------------------------
@@ -87,9 +87,9 @@ As individual ribosomal phylogeny trees are unlikely to reflect overall structur
 
 ```
 # Example of patristic_distance()
-dist.16S <- patristic_distance("201106-16S-outtree")
-dist.23S <- patristic_distance("201106-23S-outtree")
-dist.uS12 <- patristic_distance("201116-uS12-outtree")
+dist.16S <- patristic_distance("201112-16S-outtree")
+dist.23S <- patristic_distance("201112-23S-outtree")
+dist.uS12 <- patristic_distance("201112-uS12-outtree")
 
 # Example of combine_two_matrices()
 matrix.rrna <- combine_two_matrices(dist.16S,dist.23S)
