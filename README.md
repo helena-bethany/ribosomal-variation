@@ -45,7 +45,7 @@ bash download_ribosomal_models.sh
 
 ### Annotation of Ribosomal Genes and Phylogeny Analysis
 
-The script [ribosome_sequence_analysis.sh](bin/ribosome_sequence_analysis.sh) was used to annotate ribosomal genes and to generate a maximum likelihood phylogeny tree for each type of ribosomal gene. There are three required input: the folder containing the downloaded genome files, the appropriate covariance or hidden Markov model and the name of the sequence being annotated. Further options are available and can be listed using help (```-h```). The main outputs include a dated folder (eg: ```201112-16S-sequences/```) containing the annotated ribosomal sequences (eg: ```16S-AY596297.1.fa```)  and a newick outtree file which includes the metadata for each species (eg: ```201112-16S-outtree```).
+The script [ribosome_sequence_analysis.sh](bin/ribosome_sequence_analysis.sh) was used to annotate ribosomal genes and to generate a maximum likelihood phylogeny tree for each type of ribosomal gene. There are three required input: the folder containing the downloaded genome files, the appropriate covariance or hidden Markov model and the name of the sequence being annotated. Further options are available and can be listed using help (```-h```). The main outputs include a dated folder (eg: ```201112-16S-sequences/```) containing the annotated ribosomal sequences (eg: ```16S-AY596297.1.fa```)  and a newick outtree file which includes the metadata for each species (eg: ```201112-16S-outtree```). The sequence alignments (aln.zip) and phylogenetic trees (tree.zip) generated in the original analysis are available in the [data directory](data/). 
 
 ```
 # Example of ribosome_sequence_analysis.sh usage
