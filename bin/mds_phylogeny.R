@@ -10,7 +10,7 @@
 #-----------------------------------------------------------------------------------------------------------------------
 
 ######## Specify requried packages 
-packages <- c("ape", "ggplot2","ggforce", "dplyr","ggrepel","ggubr","stringr")
+packages <- c("ape", "ggplot2","ggforce", "dplyr","ggrepel","ggpubr","stringr")
 
 ######## Now install and/or load all packages.
 package.check <- lapply(
