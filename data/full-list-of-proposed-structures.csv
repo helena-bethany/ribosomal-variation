@@ -1,28 +1,29 @@
 Proposed Structure,Phyla,Min Distance to Closest Structure,Avg Min Distance for Phylum (before proposed structure),Avg Min Distance for Phylum (after proposed structure)
-Campylobacter jejuni,Epsilonproteobacteria,41.0686 (B. subtilis),42.23624,10.11487
-Chlamydophila pneumoniae,Chlamydiae,40.29327 (B. subtilis),39.63758,8.051029
-Chlorobium limicola,Chlorobi,38.31194 (B. subtilis),38.08063,5.637734
-Opitutaceae bacterium,Verrucomicrobia,38.23930 (B. subtilis),37.88569,15.9964
-Borrelia recurrentis,Spirochaetes,37.99814 (B. subtilis),39.34791,20.86451
-Singulisphaera acidiphila,Planctomycetes,37.81174 (B. subtilis),39.53757,21.47931
-Brucella melitensis,Alphaproteobacteria,37.72724 (A. baumannii),38.77886,19.38049
-Capnocytophaga canimorsus,Bacteroidetes,36.74341 (B. subtilis),38.53635,17.28
-Ureaplasma urealyticum,Tenericutes,35.60569 (B. subtilis),33.88405,26.65195
-Leptospirillum ferriphilum,Nitrospirae,33.96251 (B. subtilis),32.63062,16.33614
-Persephonella marina,Aquificae,33.28789 (B. subtilis),34.0631,14.8101
-Granulicella mallensis,Acidobacteria,32.55688 (B. subtilis),32.52332,10.86605
-Leptotrichia buccalis,Fusobacteria,32.42654 (E. faecalis),32.71726,7.821903
-Themodesulfobacterium geofontis,Thermodesulfobacteria,32.06016 (B. subtilis),31.63157,5.49968
-Gemmatimonadetes bacterium,Gemmatimonadetes,31.79930 (B. subtilits),32.37643,3.22304
-Thermotoga maritima,Thermotogae,30.86771 (B. subtilis),32.97032,9.385736
-Thermovirga lienii,Synergistetes,30.59105 (B. subtilis),30.3877,7.22561
-Deferribacter desulfuricans,Deferribacteres,29.95575 (B. subtitlis),32.0422,8.562955
-Geobacter pickeringii,Deltaproteobacteria,29.66600 (B. subtilis),32.11352,23.55489
-Chloroflexus aggregans,Chloroflexi,28.57630 (B. subtilis),30.35414,17.66057
-Dictyoglomus thermophilum,Dictyoglomi,28.41572 (B. subtilis),28.48306,0.3394
-Chthonomonas calidirosea,Armatimonadetes,28.07832 (B. subtilis),30.56267,14.44237
-Crinalium epipsammum,Cyanobacteria,27.93277 (B. subtilis),30.08208,9.179593
-Burkholderia cepacia,Betaproteobacteria,21.88905 (A. baumannii),22.9086,10.14217
-Francisella tularensis,Gammaproteobacteria,19.10630 (P. aeruginosa),8.727983,8.323592
-Cellulomonas fimi,Actinobacteria,15.00313 (M. smegmatis),15.84613,12.74535
-Listeria monocytogenes,Firmicutes,14.04439 (S. aureus),16.93148,16.34571
+Campylobacter jejuni,Epsilonproteobacteria,41.07 (B. subtilis) ,42.24 (10.11)
+Chlamydia trachomatis,Chlamydiae,40.25 (B. subtilis),39.58 (8.27)
+Opitutaceae bacterium,Verrucomicrobia,38.24 (B. subtilis),37.86 (16.00)
+Borrelia recurrentis,Spirochaetes,38.00 (B. subtilis),39.41 (20.50)
+Singulisphaeraa acidiphila,Planctomycetes,37.81 (B. subtilis),39.54 (21.48)
+Brucella melitensis,Alphaproteobacteria,37.73 (A. baumannii) ,38.78 (19.26)
+Chlorobium limicola,Chlorobi,37.52 (F. johnsoniae) ,37.34 (5.64)
+Ureaplasma urealyticum,Tenericutes,35.05 (L. monocytogenes),32.16 (26.65)
+Leptospirillum ferriphilum,Nitrospirae,33.96 (B. subtilis) ,32.63 (16.34)
+Persephonella marina,Aquificae,33.29 (B. subtilis),34.06 (14.81)
+Granulicella mallensis,Acidobacteria,32.56 (B. subtilis),32.52 (10.87)
+Leptotrichia buccalis,Fusobacteria,32.43 (E. faecalis),32.54 (7.82)
+Thermodesulfobacterium geofontis,Thermodesulfobacteria,32.06 (B. subtilis),31.63 (5.50)
+Gemmatimonadetes bacterium,Gemmatimonadetes,31.80 (B. subtilis),32.52 (10.87)
+Thermotoga maritima,Thermotogae,30.87 (B. subtilis),32.97 (9.39)
+Thermovirga lienii,Synergistetes,30.59 (B. subtilis),30.39 (7.23)
+Deferribacter desulfuricans,Deferribacteres,29.96 (B. subtilis),32.04 (8.56)
+Geobacter pickeringii,Deltaproteobacteria,29.67 (B. subtilis),32.11 (23.55)
+Chloroflexus aggregans,Chloroflexi,28.58 (B. subtilis),30.39 (7.23)
+Dictyoglomus thermophilum,Dictyoglomi,28.42 (B. subtilis),28.48 (0.34)
+Chthonomonas calidirosea,Armatimonadetes,28.08 (B. subtilis),30.56 (14.44)
+Crinalium epipsammum,Cyanobacteria,27.93 (B. subtilis) ,30.08 (9.18)
+Bacteroides fragilis,Bacteroidetes,22.37 (F. johnsoniae),18.01 (13.87)
+Burkholderia cepacia,Betaproteobacteria,21.88 (A. baumannii),22.93 (10.08)
+Erysipelothrix rhusiopathiae,Firmicutes,21.06 (E. faecalis),16.39 (16.29)
+Francisella tularensis,Gammaproteobacteria,19.11 (P. aeruginosa),8.69 (8.28)
+Cellulomonas fimi,Actinobacteria,15.00 (M. smegmatis),15.84 (12.75)
+Meiothermus ruber,Deinococcus-Thermus,11.80 (T. thermophilus),5.88 (5.15)
