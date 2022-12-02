@@ -1,5 +1,7 @@
 # Investigating bacterial ribosomal sequence variation in regards to future structural and antibiotic research.
 
+[![DOI](https://zenodo.org/badge/310448680.svg)](https://zenodo.org/badge/latestdoi/310448680)
+
 * [Required Dependencies](#required-dependencies)
 
 * [Downloading the Initial Data](#downloading-the-initial-data)
